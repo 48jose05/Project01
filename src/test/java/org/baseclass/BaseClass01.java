@@ -330,11 +330,11 @@ public class BaseClass01 {
 
 		String res = "";
 
-		File file = new File("C:\\Users\\91638\\eclipse-workspace\\MavenProject\\Excel\\Adacitine.xlsx");
+		File file = new File("C:\\Users\\91638\\OneDrive\\Desktop\\New folder\\clone1\\Project01\\Excel\\Adacitine.xlsx");
 
 		FileInputStream stream = new FileInputStream(file);
 		Workbook workbook = new XSSFWorkbook(stream);
-		Sheet sheet = workbook.getSheet(Adacitine);
+		Sheet sheet = workbook.getSheet("Sheet1");
 		Row row = sheet.getRow(rownum);
 		Cell cell = row.getCell(cellnum);
 		CellType type = cell.getCellType();
