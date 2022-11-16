@@ -60,7 +60,7 @@ public class Assert01 {
 
 	@Test
 	private void tc04() {
-String s = "Jack";
+         String s = "Jack";
 	
 	boolean contains = s.contains("J");
 	SoftAssert soft = new SoftAssert();

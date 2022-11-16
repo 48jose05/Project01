@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52" started-at="2022-11-08T13:37:15Z" finished-at="2022-11-08T13:37:15Z">
+  <suite name="Default suite" duration-ms="39369" started-at="2022-11-14T05:41:10Z" finished-at="2022-11-14T05:41:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52" started-at="2022-11-08T13:37:15Z" finished-at="2022-11-08T13:37:15Z">
-      <class name="org.baseclass.Assert01">
-        <test-method status="PASS" signature="tc04()[pri:0, instance:org.baseclass.Assert01@5ec0a365]" name="tc04" duration-ms="26" started-at="2022-11-08T13:37:15Z" finished-at="2022-11-08T13:37:15Z">
+    <test name="Default test" duration-ms="39369" started-at="2022-11-14T05:41:10Z" finished-at="2022-11-14T05:41:50Z">
+      <class name="org.testng.Final01">
+        <test-method status="PASS" signature="hoo()[pri:0, instance:org.testng.Final01@527740a2]" name="hoo" duration-ms="22902" started-at="2022-11-14T05:41:11Z" finished-at="2022-11-14T05:41:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc04 -->
-      </class> <!-- org.baseclass.Assert01 -->
+        </test-method> <!-- hoo -->
+      </class> <!-- org.testng.Final01 -->
+      <class name="org.testng.Class02">
+        <test-method status="PASS" signature="clas()[pri:0, instance:org.testng.Class02@13a5fe33]" name="clas" duration-ms="8104" started-at="2022-11-14T05:41:33Z" finished-at="2022-11-14T05:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clas -->
+      </class> <!-- org.testng.Class02 -->
+      <class name="org.testng.Class01">
+        <test-method status="PASS" signature="tc01()[pri:0, instance:org.testng.Class01@3108bc]" name="tc01" duration-ms="3176" started-at="2022-11-14T05:41:42Z" finished-at="2022-11-14T05:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+      </class> <!-- org.testng.Class01 -->
+      <class name="org.testng.Class03">
+        <test-method status="PASS" signature="ok1()[pri:0, instance:org.testng.Class03@370736d9]" name="ok1" duration-ms="5141" started-at="2022-11-14T05:41:45Z" finished-at="2022-11-14T05:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ok1 -->
+      </class> <!-- org.testng.Class03 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
