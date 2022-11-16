@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="checkoutdate" value="31-10-2022"/>
-    <parameter name="firstname" value="mada"/>
-    <parameter name="creditcardno" value="5634896532876540"/>
-    <parameter name="checkindate" value="30-10-2022"/>
-    <parameter name="expirymonth" value="july"/>
-    <parameter name="selectyear" value="2025"/>
-    <parameter name="noofrooms" value="2"/>
-    <parameter name="cvvnum" value="963"/>
-    <parameter name="roomtype" value="Standard"/>
-    <parameter name="lastname" value="samy"/>
-    <parameter name="billingaddress" value="Chennai,TamilNadu"/>
-    <parameter name="password" value="12345@greens"/>
-    <parameter name="hotels" value="Hotel Sunshine"/>
-    <parameter name="location" value="New York"/>
-    <parameter name="childrensperroom" value="2"/>
-    <parameter name="adultsperroom" value="2"/>
-    <parameter name="username" value="madasamy"/>
-    <parameter name="creditcardtype" value="Master Card"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
     <classes>
-      <class name="org.testng.LoginPage">
+      <class name="org.testng.Class02">
         <methods>
-          <include name="thirdPage" invocation-numbers="0"/>
+          <include name="clas"/>
         </methods>
-      </class> <!-- org.testng.LoginPage -->
+      </class> <!-- org.testng.Class02 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

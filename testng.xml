@@ -1,28 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-	<test thread-count="5" name="Test">
+<suite name="Suite" parallel="classes" thread-count="5">
+	<test  name="Test">
 	
-		<parameter name="username" value="madasamy"></parameter>
-		<parameter name="password" value="12345@greens"></parameter>
-		<parameter name="location" value="New York"></parameter>
-		<parameter name="hotels" value="Hotel Sunshine"></parameter>
-		<parameter name="roomtype" value="Standard"></parameter>
-		<parameter name="noofrooms" value="2"></parameter>
-		<parameter name="checkindate" value="30-10-2022"></parameter>
-		<parameter name="checkoutdate" value="31-10-2022"></parameter>
-		<parameter name="adultsperroom" value="2"></parameter>
-		<parameter name="childrensperroom" value="2"></parameter>
-		<parameter name="firstname" value="mada"></parameter>
-		<parameter name="lastname" value="samy"></parameter>
-		<parameter name="billingaddress" value="Chennai,TamilNadu"></parameter>
-		<parameter name="creditcardno" value="5634896532876540"></parameter>
-		<parameter name="creditcardtype" value="Master Card"></parameter>
-		<parameter name="expirymonth" value="july"></parameter>
-		<parameter name="selectyear" value="2025"></parameter>
-		<parameter name="cvvnum" value="963"></parameter>
 		<classes>
-			<class name="org.testng.LoginPage" />
+		<class name="org.testng.Class01" />
+			<class name="org.testng.Class02" />
+			<class name="org.testng.Class03" />
+			<class name="org.testng.Final01" />
+			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
